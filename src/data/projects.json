@@ -1,0 +1,83 @@
+{
+  "1": {
+    "slug": "wilmington-mental-health",
+    "title": "Wilmington Mental Health",
+    "category": "professional",
+    "link": "https://wilmingtonmentalhealth.com/",
+    "description": "A comprehensive healthcare platform designed for a mental health clinic, featuring patient resources, service overviews, and streamlined contact options to facilitate accessible mental wellness support.",
+    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend","Typescript","ReactJS","HTML5","CSS"],
+    "img": "/projects/wilmingtonmentalhealth.png"
+  },
+  "2": {
+    "slug": "wilmington-medical-care",
+    "title": "Wilmington Medical Care",
+    "category": "professional",
+    "link": "https://wilmingtonmedicalcare.com/",
+    "description": "A professional medical service website focused on patient trust and accessibility, providing clear information on primary care services, clinic locations, and provider expertise.",
+    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend","Typescript","ReactJS","HTML5","CSS"],
+    "img": "/projects/wilmingtonmedicalcare.png"
+  },
+  "3": {
+    "slug": "galan-dental-care",
+    "title": "Galan Dental Care",
+    "category": "professional",
+    "link": "https://galan-dentalcare.vercel.app",
+    "description": "A modern, responsive dental practice landing page built to showcase cosmetic and general dentistry services with a focus on high-quality visuals and user booking intent.",
+    "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "img": "/projects/galandentalcare.png"
+  },
+  "4": {
+    "slug": "marshalls-tailoring",
+    "title": "Marshalls Tailoring",
+    "category": "professional",
+    "link": null,
+    "description": "An elegant digital presence for a bespoke tailoring service, highlighting craftsmanship, fabric selections, and the personalized consultation process.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "HTML5", "CSS"],
+    "img": "/projects/marshallstailoring.png"
+  },
+  "5": {
+    "slug": "clairo-clone-website",
+    "title": "Clairo Clone Website",
+    "category": "for fun",
+    "link": null,
+    "description": "A creative UI/UX experiment replicating the aesthetic and minimalist vibe of the artist Clairo's official site to practice layout precision and brand-thematic styling.",
+    "tech": ["Next.js", "MongoDB", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "img": "/projects/clairo.png"
+  },
+  "6": {
+    "slug": "threadspace",
+    "title": "ThreadSpace",
+    "category": "for fun",
+    "link": null,
+    "description": "A concept social platform or forum space designed for community interaction, focusing on threaded conversations and a clean, user-centric interface.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "Firebase", "Cloudinary", "HTML5", "CSS"],
+    "img": "/projects/threadspace.png"
+  },
+  "7": {
+    "slug": "air-jordan",
+    "title": "Air Jordan",
+    "category": "for fun",
+    "link": null,
+    "description": "An e-commerce concept project exploring high-end product photography layouts, motion effects, and the iconic branding associated with the Jordan sneaker line.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "GSAP", "HTML5", "CSS"],
+    "img": "/projects/airjordan.png"
+  },
+  "8": {
+    "slug": "qr-maker",
+    "title": "Qr Maker",
+    "category": "tool",
+    "link": "https://qr-maker-nu.vercel.app/",
+    "description": "A lightweight, functional utility that allows users to instantly generate customizable QR codes for URLs, text, or contact information with a seamless export workflow.",
+    "tech": ["Vite", "ReactJS", "Material UI", "Tailwind CSS", "HTML5", "CSS"],
+    "img": "/projects/qrmaker.png"
+  },
+  "9": {
+    "slug": "video-player",
+    "title": "Video Player",
+    "category": "tool",
+    "link": "https://video-player-eight-alpha.vercel.app/",
+    "description": "A custom-built media player featuring a sleek UI, playback controls, and optimized video rendering for a refined viewing experience across devices.",
+    "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "img": "/projects/videoplayer.png"
+  }
+}
