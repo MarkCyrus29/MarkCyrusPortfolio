@@ -22,7 +22,7 @@
     "title": "Galan Dental Care",
     "category": "professional",
     "link": "https://galan-dentalcare.vercel.app",
-    "description": "A modern, responsive dental practice landing page built to showcase cosmetic and general dentistry services with a focus on high-quality visuals and user booking intent.",
+    "description": "A modern, responsive dental landing page built to showcase cosmetic and general dentistry services with a focus on high-quality visuals and user booking intent.",
     "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
     "img": "/projects/galandentalcare.png"
   },
@@ -31,7 +31,7 @@
     "title": "Marshalls Tailoring",
     "category": "professional",
     "link": null,
-    "description": "An elegant digital presence for a bespoke tailoring service, highlighting craftsmanship, fabric selections, and the personalized consultation process.",
+    "description": "An elegant digital presence for a bespoke tailoring service, highlighting craftsmanship, suit selection, and the personalized contact form.",
     "tech": ["Vite", "ReactJS", "Tailwind CSS", "HTML5", "CSS"],
     "img": "/projects/marshallstailoring.png"
   },
@@ -58,7 +58,7 @@
     "title": "Air Jordan",
     "category": "for fun",
     "link": null,
-    "description": "An e-commerce concept project exploring high-end product photography layouts, motion effects, and the iconic branding associated with the Jordan sneaker line.",
+    "description": "A dynamic showcase of Nike Air Jordan sneakers, powered by GSAP ScrollTrigger.",
     "tech": ["Vite", "ReactJS", "Tailwind CSS", "GSAP", "HTML5", "CSS"],
     "img": "/projects/airjordan.png"
   },
@@ -76,7 +76,7 @@
     "title": "Video Player",
     "category": "tool",
     "link": "https://video-player-eight-alpha.vercel.app/",
-    "description": "A custom-built media player featuring a sleek UI, playback controls, and optimized video rendering for a refined viewing experience across devices.",
+    "description": "A custom-built media player featuring a sleek UI, playback controls, and visible timestamp down to milliseconds (request of a cousin).",
     "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
     "img": "/projects/videoplayer.png"
   }

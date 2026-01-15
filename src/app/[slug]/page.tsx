@@ -4,13 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 const PROJECTS_DATA = projects;
 
-interface Project {
-  slug: string;
-  title: string;
-  category: string;
-  link: string | null;
-}
-
 export default async function ProjectDetails({
   params,
 }: {
@@ -45,7 +38,7 @@ export default async function ProjectDetails({
             fill
             className="object-contain absolute p-1 "
           />
-          <div className="absolute bottom-0 bg-linear-to-b from-0% to-95% from-transparent to-black/25 h-full w-full flex justify-center items-end p-4">
+          <div className="aspect-video absolute bg-linear-to-b from-0% via-75% to-95% from-transparent via-transparent to-black/55 h-full w-full flex justify-center items-end p-4 bottom-1 ">
             <p className="z-10 shadow-2xl text-white text-base bg-black/40 px-2 py-1 rounded-md">
               {project.tech.join(" • ")}
             </p>

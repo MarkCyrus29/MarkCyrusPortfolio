@@ -38,7 +38,7 @@ function Projects() {
         {filteredProjects.map((project) => (
           <div
             key={project.title}
-            className="py-4 border border-dark/40 bg-background/20 shadow-xs shadow-dark/10 rounded-lg w-full h-full scale-97 hover:scale-100 transition-all"
+            className="py-4 border border-dark/40 bg-background/35 rounded-lg w-full h-full scale-97 hover:scale-100 transition-all"
           >
             <div className="relative w-full h-4/5 ">
               <Image
