@@ -7,57 +7,38 @@ import { notFound } from "next/navigation";
 
 const PROJECTS_DATA = projects;
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Promise<Metadata> {
-  const project = Object.values(PROJECTS_DATA).find(
-    (p) => p.slug === params.slug,
-  );
+export const metadata: Metadata = {
+  title: "Project | Mark Cyrus Serrano",
+  description:
+    "A collection of web development projects by Mark Cyrus Serrano, a fullstack web developer specializing in React, Next.js, and modern web technologies.",
+  openGraph: {
+    title: "Project | Mark Cyrus Serrano",
+    description:
+      "Explore web development projects built by Mark Cyrus Serrano using React, Next.js, and the MERN stack.",
+    siteName: "Mark Cyrus Serrano Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Projects by Mark Cyrus Serrano",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project | Mark Cyrus Serrano",
+    description:
+      "Portfolio projects by Mark Cyrus Serrano — fullstack web developer.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
-  if (!project) {
-    return notFound();
-  }
-
-  const title = `${project.title} | Project by Mark Cyrus Serrano`;
-  const description =
-    project.description ||
-    `A web project built by Mark Cyrus Serrano using ${project.tech.join(", ")}.`;
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical: `https://mark-cyrus-portfolio.vercel.app/${project.slug}`,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `https://mark-cyrus-portfolio.vercel.app/${project.slug}`,
-      siteName: "Mark Cyrus Serrano Portfolio",
-      images: [
-        {
-          url: project.img || "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: `${project.title} – Web Project by Mark Cyrus Serrano`,
-        },
-      ],
-      type: "article",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [project.img || "/og-image.png"],
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 export default async function ProjectDetails({
   params,
 }: {
