@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Mark Cyrus Serrano Portfolio",
     images: [
       {
-        url: "/og-image.png", // 🔴 add an OG image (1200x630 recommended)
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Mark Cyrus Serrano – Fullstack Web Developer Portfolio",

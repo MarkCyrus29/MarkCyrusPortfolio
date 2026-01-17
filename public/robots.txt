@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mark-cyrus-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://mark-cyrus-portfolio.vercel.app/sitemap.xml
