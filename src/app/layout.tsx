@@ -15,6 +15,9 @@ const firaMono = Fira_Mono({
 export const metadata: Metadata = {
   title: "Mark Cyrus Serrano | Portfolio",
   description: "Personal portfolio website of Mark Cyrus Serrano",
+  verification: {
+    google: "My5liHEZGiZOB7SAfJcKpd6rwfiGrXmDhn2QwzhLuwQ",
+  },
 };
 
 export default function RootLayout({
