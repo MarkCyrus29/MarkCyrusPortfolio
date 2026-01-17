@@ -24,7 +24,7 @@ export default async function ProjectDetails({
         amplitude={0.5}
         speed={1.5}
       />
-      <main className="max-w-4xl w-full h-screen flex flex-col justify-center items-center mx-auto">
+      <main className="max-w-4xl w-full h-screen flex flex-col justify-center items-center mx-auto px-4">
         <div className="flex w-full justify-between mb-2">
           <Link
             href={"/#projects"}

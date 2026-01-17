@@ -16,16 +16,19 @@ export default function Home() {
         amplitude={0.5}
         speed={1.5}
       />
-      <main id="home" className="max-w-4xl w-full h-full flex flex-col mx-auto">
+      <main
+        id="home"
+        className="max-w-4xl w-full h-full flex flex-col mx-auto px-2 sm:px-6! md:px-0"
+      >
         <FadeContent
-          className="mt-10 fixed z-50"
+          className="mt-2 md:mt-10 fixed z-50 max-w-4xl mx-auto w-full flex justify-center md:justify-start items-center px-2 md:px-0"
           blur={true}
           duration={1000}
           easing="ease-out"
           initialOpacity={0}
           delay={500}
         >
-          <header className="flex gap-3 justify-center items-center text-sm lowercase tracking-widest backdrop-blur-xl bg-dark/20 rounded-md px-4 py-2 shadow-md shadow-black/30 ">
+          <header className="flex gap-3 text-sm lowercase tracking-widest backdrop-blur-xl bg-dark/20 rounded-md px-4 py-2 shadow-md shadow-black/30  ">
             {["home", "projects", "contact"].map((item) => (
               <span className="opacity-80 hover:opacity-100" key={item}>
                 <Link href={`/#${item}`}>{item}</Link>
@@ -44,24 +47,27 @@ export default function Home() {
 function HeroSection() {
   return (
     <FadeContent
-      className="flex flex-col h-screen py-12"
+      className="flex flex-col h-screen py-12 w-full items-center justify-center  "
       blur={true}
       duration={1000}
       easing="ease-out"
       initialOpacity={0}
       delay={500}
     >
-      <div className="flex flex-row gap-12 items-center justify-center h-4/5 ">
+      <div className="flex md:flex-row flex-col gap-12 items-center justify-center h-4/5 ">
+        <div className="md:hidden w-1/2 ">
+          <HeroImage />
+        </div>
         <div className="w-1/2 ">
           <h1 className="mb-4">Hi! I'm Cyrus </h1>
           <h4 className="mb-3">19yo Fullstack Web Developer</h4>
           <p>Based in the Philippines</p>
 
-          <p>For QNA, chat with me here </p>
+          <p className="text-sm! md:text-base!">For QNA, chat with me here </p>
           <SocialsList />
         </div>
 
-        <div className="w-1/2 ">
+        <div className="w-1/2 hidden md:block ">
           <HeroImage />
         </div>
       </div>
@@ -110,10 +116,9 @@ function ContactSection() {
         <p className="text-xs! color-white/80 ">{`(Or use my socials)`}</p>
         <ContactForm />
       </section>
-      <footer className="w-full mb-2">
-        <p className="text-xs text-white/50 mt-4">
-          © 2026 Mark Cyrus Serrano. All rights reserved.
-        </p>
+      <footer className="w-full mb-2 flex justify-between items-center px-4">
+        <p className="text-xs text-white/50 mt-4">2026 Mark Cyrus Serrano.</p>
+        <SocialsList />
       </footer>
     </FadeContent>
   );

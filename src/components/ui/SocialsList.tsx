@@ -1,12 +1,10 @@
-import React from "react";
-
 function SocialsList() {
   return (
-    <section className="flex gap-6 mt-4">
+    <section className="flex gap-2 mt-4">
       <a
         href="https://linkedin.com/in/markcyrus-serrano"
         target="_blank"
-        className="text-muted-foreground hover:text-foreground"
+        className="text-muted-foreground hover:text-foreground transition-colors rounded-sm hover:bg-dark/30 p-2"
         rel="noopener noreferrer"
         title="LinkedIn"
       >
@@ -32,7 +30,7 @@ function SocialsList() {
       <a
         href="https://github.com/MarkCyrus29"
         target="_blank"
-        className="text-muted-foreground hover:text-foreground"
+        className="text-muted-foreground hover:text-foreground transition-colors rounded-sm hover:bg-dark/30 p-2"
         rel="noopener noreferrer"
         title="GitHub"
       >
@@ -57,7 +55,7 @@ function SocialsList() {
       <a
         href="mailto:markcyrus.serrano+portfolio@gmail.com"
         target="_blank"
-        className="text-muted-foreground hover:text-foreground"
+        className="text-muted-foreground hover:text-foreground transition-colors rounded-sm hover:bg-dark/30 p-2"
         rel="noopener noreferrer"
         title="Email"
       >
