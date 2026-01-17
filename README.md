@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mark Cyrus Serrano – Fullstack Web Developer
 
-## Getting Started
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-purple?style=for-the-badge)](https://mark-cyrus-portfolio.vercel.app)
 
-First, run the development server:
+Hi! I’m **Mark Cyrus Serrano**, a 19-year-old Fullstack Web Developer based in the Philippines.  
+I specialize in creating **modern, high-performance websites** that are visually appealing, responsive, and user-friendly.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I focus on delivering **quality websites that not only look good but perform well**. Here’s why clients choose me:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Timely Service** – I value deadlines and ensure projects are delivered on schedule  
+- **Personalized Fit** – Each project is tailored to your brand and goals  
+- **Uncompromising Quality** – Clean, maintainable code and polished design for a professional result  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Whether you need a **portfolio, company landing page, or custom web app**, I can turn your ideas into reality.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 My Skills
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** React, Next.js, Tailwind CSS  
+- **Backend:** Node.js, Express, MongoDB (MERN Stack)  
+- **Other Tools:** Git, TypeScript, API Integration, SEO Optimization, Sanity (CMS)
+- **Design Focus:** Responsive, modern layouts with attention to UI/UX  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I make sure your website is **fast, secure, and visually engaging** across devices.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Get in Touch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I’d love to collaborate with you! You can reach me via:
+
+- **Email / Contact Form:** [Reach me here](https://mark-cyrus-portfolio.vercel.app/#contact)  
+- **LinkedIn:** [Mark Cyrus Serrano](https://linkedin.com/in/markcyrus-serrano)  
+- **GitHub:** [MarkCyrus29](https://github.com/MarkCyrus29)  
+Let’s build something great together — whether it’s your **brand’s website, a personal portfolio, or a custom web application**, I’ll make it happen.
