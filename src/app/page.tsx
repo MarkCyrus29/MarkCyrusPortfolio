@@ -6,6 +6,74 @@ import Projects from "@/components/ui/Projects";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import SocialsList from "@/components/ui/SocialsList";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Mark Cyrus Serrano | Fullstack Web Developer",
+    template: "%s | Mark Cyrus Serrano",
+  },
+  description:
+    "Mark Cyrus Serrano is a 19-year-old fullstack web developer based in the Philippines, specializing in modern websites using React, Next.js, and the MERN stack. View projects, tech stack, and contact details.",
+  keywords: [
+    "Mark Cyrus Serrano",
+    "Fullstack Web Developer",
+    "Web Developer Philippines",
+    "React Developer",
+    "Next.js Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "MERN Stack Developer",
+    "JavaScript Developer",
+    "Portfolio Website",
+  ],
+  authors: [{ name: "Mark Cyrus Serrano" }],
+  creator: "Mark Cyrus Serrano",
+  metadataBase: new URL("https://mark-cyrus-portfolio.vercel.app"), 
+  alternates: {
+    canonical: "https://mark-cyrus-portfolio.vercel.app",
+  },
+
+  openGraph: {
+    title: "Mark Cyrus Serrano | Fullstack Web Developer",
+    description:
+      "Portfolio of Mark Cyrus Serrano, a fullstack web developer creating modern, high-performance websites using React, Next.js, and Node.js.",
+    url: "https://mark-cyrus-portfolio.vercel.app",
+    siteName: "Mark Cyrus Serrano Portfolio",
+    images: [
+      {
+        url: "/og-image.png", // 🔴 add an OG image (1200x630 recommended)
+        width: 1200,
+        height: 630,
+        alt: "Mark Cyrus Serrano – Fullstack Web Developer Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Mark Cyrus Serrano | Fullstack Web Developer",
+    description:
+      "Fullstack web developer specializing in React, Next.js, and modern web technologies. View projects and get in touch.",
+    images: ["/og-image.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
+  category: "technology",
+};
 
 export default function Home() {
   return (
@@ -18,7 +86,7 @@ export default function Home() {
       />
       <main
         id="home"
-        className="max-w-4xl w-full h-full flex flex-col mx-auto px-2 sm:px-6! md:px-0"
+        className="max-w-4xl w-full h-full flex flex-col mx-auto px-2 sm:px-6! md:px-0!"
       >
         <FadeContent
           className="mt-2 md:mt-10 fixed z-50 max-w-4xl mx-auto w-full flex justify-center md:justify-start items-center px-2 md:px-0"

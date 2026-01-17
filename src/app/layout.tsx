@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${firaCode.variable} ${firaMono.variable} antialiased`}>
         <main>{children}</main>
-        
       </body>
     </html>
   );

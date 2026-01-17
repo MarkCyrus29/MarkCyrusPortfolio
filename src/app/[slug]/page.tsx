@@ -2,8 +2,62 @@ import Aurora from "@/animations/Aurora";
 import projects from "@/data/projects.json";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+
 const PROJECTS_DATA = projects;
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const project = Object.values(PROJECTS_DATA).find(
+    (p) => p.slug === params.slug,
+  );
+
+  if (!project) {
+    return notFound();
+  }
+
+  const title = `${project.title} | Project by Mark Cyrus Serrano`;
+  const description =
+    project.description ||
+    `A web project built by Mark Cyrus Serrano using ${project.tech.join(", ")}.`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `https://mark-cyrus-portfolio.vercel.app/${project.slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://mark-cyrus-portfolio.vercel.app/${project.slug}`,
+      siteName: "Mark Cyrus Serrano Portfolio",
+      images: [
+        {
+          url: project.img || "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: `${project.title} – Web Project by Mark Cyrus Serrano`,
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [project.img || "/og-image.png"],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 export default async function ProjectDetails({
   params,
 }: {
@@ -13,7 +67,7 @@ export default async function ProjectDetails({
   const project = Object.values(PROJECTS_DATA).find((p) => p.slug === slug);
 
   if (!project) {
-    return <div>Project not found</div>;
+    return notFound();
   }
 
   return (
