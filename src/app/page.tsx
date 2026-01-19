@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Mark Cyrus Serrano" }],
   creator: "Mark Cyrus Serrano",
-  metadataBase: new URL("https://mark-cyrus-portfolio.vercel.app"), 
+  metadataBase: new URL("https://mark-cyrus-portfolio.vercel.app"),
   alternates: {
     canonical: "https://mark-cyrus-portfolio.vercel.app",
   },
@@ -97,7 +97,7 @@ export default function Home() {
           delay={500}
         >
           <header className="flex gap-3 text-sm lowercase tracking-widest backdrop-blur-xl bg-dark/20 rounded-md px-4 py-2 shadow-md shadow-black/30  ">
-            {["home", "projects", "contact"].map((item) => (
+            {["home", "services", "projects", "contact"].map((item) => (
               <span className="opacity-80 hover:opacity-100" key={item}>
                 <Link href={`/#${item}`}>{item}</Link>
               </span>
@@ -105,6 +105,7 @@ export default function Home() {
           </header>
         </FadeContent>
         <HeroSection />
+        <ServicesSection />
         <WhatSection />
         <ContactSection />
       </main>
@@ -188,6 +189,59 @@ function ContactSection() {
         <p className="text-xs text-white/50 mt-4">2026 Mark Cyrus Serrano.</p>
         <SocialsList />
       </footer>
+    </FadeContent>
+  );
+}
+function ServicesSection() {
+  const services = [
+    {
+      title: "Web Development",
+      description:
+        "Building responsive, modern websites using React, Next.js, and the MERN stack.",
+    },
+    {
+      title: "CMS",
+      description:
+        "Custom content management solutions for easy blogs updates and content control.",
+    },
+    {
+      title: "Hosting",
+      description:
+        "Reliable hosting setups to keep your website live and fast.",
+    },
+    {
+      title: "Maintenance",
+      description:
+        "Ongoing support and updates to keep your website secure and up-to-date.",
+    },
+  ];
+
+  return (
+    <FadeContent
+      className="flex flex-col items-center justify-center w-full h-screen px-4"
+      blur={true}
+      duration={700}
+      easing="ease-out"
+      initialOpacity={0}
+      delay={500}
+    >
+      <section id="services" className="max-w-4xl w-full text-center py-24">
+        <h1>Services I Offer:</h1>
+        <p className="mb-12">
+          I help businesses and individuals bring their online presence to life.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {services.map((service) => (
+            <div
+              key={service.title}
+              className="p-6 rounded-lg shadow-lg bg-dark/30 hover:bg-dark/40 transition-colors duration-300"
+            >
+              <h2 className="text-xl font-semibold mb-2">{service.title}</h2>
+              <p className="text-sm">{service.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </FadeContent>
   );
 }
