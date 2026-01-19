@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://mark-cyrus-portfolio.vercel.app
+Host: https://markcyruss.com
 
 # Sitemaps
-Sitemap: https://mark-cyrus-portfolio.vercel.app/sitemap.xml
+Sitemap: https://markcyruss.com/sitemap.xml

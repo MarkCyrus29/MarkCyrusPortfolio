@@ -29,16 +29,16 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Mark Cyrus Serrano" }],
   creator: "Mark Cyrus Serrano",
-  metadataBase: new URL("https://mark-cyrus-portfolio.vercel.app"),
+  metadataBase: new URL("https://markcyruss.com"),
   alternates: {
-    canonical: "https://mark-cyrus-portfolio.vercel.app",
+    canonical: "https://markcyruss.com",
   },
 
   openGraph: {
     title: "Mark Cyrus Serrano | Fullstack Web Developer",
     description:
       "Portfolio of Mark Cyrus Serrano, a fullstack web developer creating modern, high-performance websites using React, Next.js, and Node.js.",
-    url: "https://mark-cyrus-portfolio.vercel.app",
+    url: "https://markcyruss.com",
     siteName: "Mark Cyrus Serrano Portfolio",
     images: [
       {
