@@ -56,7 +56,7 @@ export async function POST(request: Request) {
     if (isRateLimited(ip)) {
       return Response.json(
         { error: "Too many requests. Please slow down." },
-        { status: 429 }
+        { status: 429 },
       );
     }
 
@@ -67,7 +67,7 @@ export async function POST(request: Request) {
     if (!firstName || !email || !message) {
       return Response.json(
         { error: "Missing required fields" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
       console.error("Admin email failed:", adminEmail.error);
       return Response.json(
         { error: "Failed to send message" },
-        { status: 500 }
+        { status: 500 },
       );
     }
 

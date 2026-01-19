@@ -53,7 +53,7 @@ function SocialsList() {
         </svg>
       </a>
       <a
-        href="mailto:markcyrus.serrano+portfolio@gmail.com"
+        href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#109;&#97;&#114;&#107;&#99;&#121;&#114;&#117;&#115;&#115;&#46;&#99;&#111;&#109;"
         target="_blank"
         className="text-muted-foreground hover:text-foreground transition-colors rounded-sm hover:bg-dark/30 p-2"
         rel="noopener noreferrer"

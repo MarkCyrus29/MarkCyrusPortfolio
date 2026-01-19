@@ -132,7 +132,15 @@ function HeroSection() {
           <h4 className="mb-3">19yo Fullstack Web Developer</h4>
           <p>Based in the Philippines</p>
 
-          <p className="text-sm! md:text-base!">For QNA, chat with me here </p>
+          <p className="text-sm! md:text-base!">
+            For QNA, chat with me{" "}
+            <a
+              className="text-blue-400 hover:text-blue-300"
+              href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#109;&#97;&#114;&#107;&#99;&#121;&#114;&#117;&#115;&#115;&#46;&#99;&#111;&#109;"
+            >
+              here
+            </a>
+          </p>
           <SocialsList />
         </div>
 
@@ -186,7 +194,12 @@ function ContactSection() {
         <ContactForm />
       </section>
       <footer className="w-full mb-2 flex justify-between items-center px-4">
-        <p className="text-xs text-white/50 mt-4">2026 Mark Cyrus Serrano.</p>
+        <p className="text-xs text-white/50 mt-4">
+          2026{" "}
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#105;&#64;&#109;&#97;&#114;&#107;&#99;&#121;&#114;&#117;&#115;&#115;&#46;&#99;&#111;&#109;">
+            Mark Cyrus Serrano
+          </a>
+        </p>
         <SocialsList />
       </footer>
     </FadeContent>
