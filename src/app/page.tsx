@@ -156,7 +156,7 @@ function HeroSection() {
 function WhatSection() {
   return (
     <FadeContent
-      className="relative flex flex-col items-center justify-start min-h-screen h-[150vh] w-full "
+      className="relative flex flex-col items-center justify-start min-h-screen  w-full "
       blur={true}
       duration={700}
       easing="ease-out"
@@ -166,7 +166,7 @@ function WhatSection() {
       <section id="projects" className="text-center h-full w-full py-12">
         <h1>What i do:</h1>
         <p>I make websites!</p>
-        <div className="mt-6 h-5/6 w-full">
+        <div className="mt-6  w-full">
           <Projects />
         </div>
       </section>

@@ -59,7 +59,7 @@ export default async function ProjectDetails({
         amplitude={0.5}
         speed={1.5}
       />
-      <main className="max-w-4xl w-full h-screen flex flex-col justify-center items-center mx-auto px-4">
+      <main className="max-w-4xl w-full h-screen flex flex-col justify-center items-center mx-auto px-6">
         <div className="flex w-full justify-between mb-2">
           <Link
             href={"/#projects"}
@@ -71,7 +71,7 @@ export default async function ProjectDetails({
             src={project.img || "/tech-icons/css.svg"}
             alt={"Screenshot of " + project.title + "'s Landing Page"}
             fill
-            className="object-contain absolute p-1 "
+            className="object-cover absolute p-1 "
           />
           <div className="aspect-video absolute bg-linear-to-b from-0% via-75% to-95% from-transparent via-transparent to-black/55 h-full w-full flex justify-center items-end p-4 bottom-1 ">
             <p className="z-10 shadow-2xl text-white text-base bg-black/40 px-2 py-1 rounded-md">
