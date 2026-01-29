@@ -213,7 +213,7 @@ function ServicesSection() {
         "Building responsive, modern websites using React, Next.js, and the MERN stack.",
     },
     {
-      title: "CMS",
+      title: "Headless CMS",
       description:
         "Custom content management solutions for easy blogs updates and content control.",
     },
