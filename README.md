@@ -1,7 +1,5 @@
 # Mark Cyrus Serrano – Fullstack Web Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-purple?style=for-the-badge)](https://markcyruss.com)
-
 Hi! I’m **Mark Cyrus Serrano**, a 19-year-old Fullstack Web Developer based in the Philippines.  
 I specialize in creating **modern, high-performance websites** that are visually appealing, responsive, and user-friendly.
 
