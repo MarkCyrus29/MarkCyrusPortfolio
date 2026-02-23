@@ -18,24 +18,6 @@
     "img": "/projects/wilmingtonmedicalcare.png"
   },
   "3": {
-    "slug": "jam-cafe",
-    "title": "Website Concept for JAM Cafe",
-    "category": "concept",
-    "link": "https://jam-cafe.vercel.app/",
-    "description": "A modern café website concept focused on menu browsing, gallery highlights, and clear visit info—optimized for mobile and built for fast loading and easy updates.",
-    "tech": ["Next.js", "Tailwind CSS", "Resend","Typescript","ReactJS","HTML5","CSS"],
-    "img": "/projects/jamcafe.png"
-  },
-  "4": {
-    "slug": "itaewon-st-cafe",
-    "title": "Website Concept for Itaewon St. Cafe",
-    "category": "concept",
-    "link": "https://itaewon-st-cafe.vercel.app/",
-    "description": "A minimalist coffee shop website concept with a premium feel, featuring a dynamic google maps location for each branch, a strong hero section, and a clean layout designed to convert visitors into walk-ins.",
-    "tech": ["Next.js", "Tailwind CSS", "Resend" ,"Typescript","ReactJS","HTML5","CSS"],
-    "img": "/projects/itaewonstcafe.png"
-  },
-  "5": {
     "slug": "galan-dental-care",
     "title": "Galan Dental Care",
     "category": "professional",
@@ -44,7 +26,43 @@
     "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
     "img": "/projects/galandentalcare.png"
   },
+  "4": {
+    "slug": "marshalls-tailoring",
+    "title": "Marshalls Tailoring",
+    "category": "professional",
+    "link": null,
+    "description": "An elegant digital presence for a bespoke tailoring service, highlighting craftsmanship, suit selection, and the personalized contact form.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "HTML5", "CSS"],
+    "img": "/projects/marshallstailoring.png"
+  },
+  "5": {
+    "slug": "clairo-clone-website",
+    "title": "Clairo Clone Website",
+    "category": "for fun",
+    "link": null,
+    "description": "A creative UI/UX experiment replicating the aesthetic and minimalist vibe of the artist Clairo's official site to practice layout precision and brand-thematic styling.",
+    "tech": ["Next.js", "MongoDB", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "img": "/projects/clairo.png"
+  },
   "6": {
+    "slug": "threadspace",
+    "title": "ThreadSpace",
+    "category": "for fun",
+    "link": null,
+    "description": "A concept social platform or forum space designed for community interaction, focusing on threaded conversations and a clean, user-centric interface.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "Firebase", "Cloudinary", "HTML5", "CSS"],
+    "img": "/projects/threadspace.png"
+  },
+  "7": {
+    "slug": "air-jordan",
+    "title": "Air Jordan",
+    "category": "for fun",
+    "link": null,
+    "description": "A dynamic showcase of Nike Air Jordan sneakers, powered by GSAP ScrollTrigger.",
+    "tech": ["Vite", "ReactJS", "Tailwind CSS", "GSAP", "HTML5", "CSS"],
+    "img": "/projects/airjordan.png"
+  },
+  "8": {
     "slug": "qr-maker",
     "title": "Qr Maker",
     "category": "tool",
@@ -53,7 +71,7 @@
     "tech": ["Vite", "ReactJS", "Material UI", "Tailwind CSS", "HTML5", "CSS"],
     "img": "/projects/qrmaker.png"
   },
-  "8": {
+  "9": {
     "slug": "video-player",
     "title": "Video Player",
     "category": "tool",

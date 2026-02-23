@@ -25,7 +25,7 @@ function Projects() {
     <main className="w-full h-full">
       {/* Filter Tabs */}
       <div className="flex flex-wrap gap-2 mb-8 w-full justify-center items-center">
-        {["all", "professional", "tool", "for fun"].map((cat) => (
+        {["all", "professional", "concept", "tool"].map((cat) => (
           <button
             key={cat}
             type="button"
@@ -45,7 +45,7 @@ function Projects() {
       </div>
 
       {/* Grid: Changed to auto-rows for dynamic height */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-2  gap-3 md:gap-4 w-full items-start">
         {visibleProjects.map((project) => (
           <Link
             href={`/${project.slug ? project.slug : "#"}`}
