@@ -5,7 +5,7 @@
     "category": "professional",
     "link": "https://wilmingtonmentalhealth.com/",
     "description": "A comprehensive healthcare platform designed for a mental health clinic, featuring patient resources, service overviews, and streamlined contact options to facilitate accessible mental wellness support.",
-    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend","Typescript","ReactJS","HTML5","CSS"],
+    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend", "Cloudflare Turnstile","Typescript","ReactJS","HTML5","CSS"],
     "img": "/projects/wilmingtonmentalhealth.png"
   },
   "2": {
@@ -14,10 +14,19 @@
     "category": "professional",
     "link": "https://wilmingtonmedicalcare.com/",
     "description": "A professional medical service website focused on patient trust and accessibility, providing clear information on primary care services, clinic locations, and provider expertise.",
-    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend","Typescript","ReactJS","HTML5","CSS"],
+    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend", "Cloudflare Turnstile", "Typescript", "ReactJS", "HTML5", "CSS"],
     "img": "/projects/wilmingtonmedicalcare.png"
   },
   "3": {
+    "slug": "marshalls-tailoring",
+    "title": "Marshall's Tailoring",
+    "category": "professional",
+    "link": "https://marshallstailoring.com/",
+    "description": "A custom tailoring service website offering personalized clothing alterations and custom-fit solutions for discerning clients.",
+    "tech": ["Next.js", "Tailwind CSS", "Zod", "Upstash Redis", "Resend", "Cloudflare Turnstile","Typescript","ReactJS","HTML5","CSS"],
+    "img": "/projects/marshalls-tailoring.png"
+  },
+  "4": {
     "slug": "jam-cafe",
     "title": "Website Concept for JAM Cafe",
     "category": "concept",
@@ -26,7 +35,7 @@
     "tech": ["Next.js", "Tailwind CSS", "Resend","Typescript","ReactJS","HTML5","CSS"],
     "img": "/projects/jamcafe.png"
   },
-  "4": {
+  "5": {
     "slug": "itaewon-st-cafe",
     "title": "Website Concept for Itaewon St. Cafe",
     "category": "concept",
@@ -35,7 +44,7 @@
     "tech": ["Next.js", "Tailwind CSS", "Resend" ,"Typescript","ReactJS","HTML5","CSS"],
     "img": "/projects/itaewonstcafe.png"
   },
-  "5": {
+  "6": {
     "slug": "galan-dental-care",
     "title": "Galan Dental Care",
     "category": "professional",
@@ -44,7 +53,7 @@
     "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
     "img": "/projects/galandentalcare.png"
   },
-  "6": {
+  "7": {
     "slug": "qr-maker",
     "title": "Qr Maker",
     "category": "tool",
