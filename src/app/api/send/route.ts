@@ -4,7 +4,9 @@ import type { EmailTemplateProps } from "../../../components/EmailTemplate";
 import { Resend } from "resend";
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const RESEND_SENDER = process.env.RESEND_SENDER ?? "onboarding@resend.dev";
+const RESEND_SENDER = process.env.RESEND_SENDER!;
+const RESEND_RECEIVER = process.env.RESEND_RECEIVER!
+const TURNSTILE_SECRET_KEY = process.env.TURNSTILE_SECRET_KEY!;
 
 // --------------------
 // ENV VALIDATION
@@ -87,7 +89,7 @@ export async function POST(request: Request) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        secret: process.env.TURNSTILE_SECRET_KEY,
+        secret: TURNSTILE_SECRET_KEY,
         response: captchaToken,
       }),
     });
@@ -100,7 +102,7 @@ export async function POST(request: Request) {
 
     const adminEmail = await resend.emails.send({
       from: RESEND_SENDER,
-      to: ["markcyrus.serrano@gmail.com"],
+      to: [RESEND_RECEIVER],
       subject: "📬 New Portfolio Message",
       html: emailTemplateHTML({ firstName, email, message, captchaToken }),
     });
@@ -121,12 +123,16 @@ export async function POST(request: Request) {
       to: [email],
       subject: "Thanks for reaching out!",
       html: `
-        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-          <h2>Hi ${firstName},</h2>
-          <p>Thanks for reaching out through my portfolio!</p>
-          <p>I've received your message and will get back to you as soon as possible.</p>
-          <br />
-          <p>Best regards,<br/>Mark</p>
+        <div style="font-family: 'Inter', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eaeaea; border-radius: 8px;">
+          <h2 style="color: #111;">Hi ${firstName},</h2>
+          <p style="font-size: 16px;">Thanks for reaching out through my portfolio!</p>
+          <p style="font-size: 16px;">I've received your message and will get back to you as soon as possible.</p>
+          <hr style="border: none; border-top: 1px solid #eaeaea; margin: 24px 0;" />
+          <p style="font-size: 14px; color: #555;">
+            Best regards,<br/>
+            <strong>Mark Cyrus</strong><br/>
+            <a href="mailto:info@markcyruss.com" style="color: #0070f3; text-decoration: none;">info@markcyruss.com</a> | <a href="https://markcyruss.com" style="color: #0070f3; text-decoration: none;">markcyruss.com</a>
+          </p>
         </div>
       `,
     });

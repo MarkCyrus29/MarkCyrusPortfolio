@@ -5,7 +5,17 @@
     "category": "professional",
     "link": "https://wilmingtonmentalhealth.com/",
     "description": "A comprehensive healthcare platform designed for a mental health clinic, featuring patient resources, service overviews, and streamlined contact options to facilitate accessible mental wellness support.",
-    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend", "Cloudflare Turnstile","Typescript","ReactJS","HTML5","CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Sanity CMS",
+      "Resend",
+      "Cloudflare Turnstile",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/wilmingtonmentalhealth.png"
   },
   "2": {
@@ -14,61 +24,137 @@
     "category": "professional",
     "link": "https://wilmingtonmedicalcare.com/",
     "description": "A professional medical service website focused on patient trust and accessibility, providing clear information on primary care services, clinic locations, and provider expertise.",
-    "tech": ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend", "Cloudflare Turnstile", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Sanity CMS",
+      "Resend",
+      "Cloudflare Turnstile",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/wilmingtonmedicalcare.png"
   },
   "3": {
+    "slug": "wilmington-trauma-center",
+    "title": "Wilmington Trauma Center",
+    "category": "professional",
+    "link": "https://wilmingtontraumacenter.org/",
+    "description": "A nonprofit mental health organization website centered on trauma-informed care, featuring service overviews, accessibility commitments, and clear pathways for individuals and families to request appointments and find support.",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Resend",
+      "Cloudflare Turnstile",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
+    "img": "/projects/wilmingtontraumacenter.png"
+  },
+  "4": {
     "slug": "marshalls-tailoring",
     "title": "Marshall's Tailoring",
     "category": "professional",
     "link": "https://marshallstailoring.com/",
     "description": "A custom tailoring service website offering personalized clothing alterations and custom-fit solutions for discerning clients.",
-    "tech": ["Next.js", "Tailwind CSS", "Zod", "Upstash Redis", "Resend", "Cloudflare Turnstile","Typescript","ReactJS","HTML5","CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Zod",
+      "Upstash Redis",
+      "Resend",
+      "Cloudflare Turnstile",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/marshalls-tailoring.png"
   },
-  "4": {
+  "5": {
     "slug": "jam-cafe",
     "title": "Website Concept for JAM Cafe",
     "category": "concept",
     "link": "https://jam-cafe.vercel.app/",
     "description": "A modern café website concept focused on menu browsing, gallery highlights, and clear visit info—optimized for mobile and built for fast loading and easy updates.",
-    "tech": ["Next.js", "Tailwind CSS", "Resend","Typescript","ReactJS","HTML5","CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Resend",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/jamcafe.png"
   },
-  "5": {
+  "6": {
     "slug": "itaewon-st-cafe",
     "title": "Website Concept for Itaewon St. Cafe",
     "category": "concept",
     "link": "https://itaewon-st-cafe.vercel.app/",
     "description": "A minimalist coffee shop website concept with a premium feel, featuring a dynamic google maps location for each branch, a strong hero section, and a clean layout designed to convert visitors into walk-ins.",
-    "tech": ["Next.js", "Tailwind CSS", "Resend" ,"Typescript","ReactJS","HTML5","CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Resend",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/itaewonstcafe.png"
   },
-  "6": {
+  "7": {
     "slug": "galan-dental-care",
     "title": "Galan Dental Care",
     "category": "professional",
     "link": "https://galan-dentalcare.vercel.app",
     "description": "A modern, responsive dental landing page built to showcase cosmetic and general dentistry services with a focus on high-quality visuals and user booking intent.",
-    "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/galandentalcare.png"
   },
-  "7": {
+  "8": {
     "slug": "qr-maker",
     "title": "Qr Maker",
     "category": "tool",
     "link": "https://qr-maker-nu.vercel.app/",
     "description": "A lightweight, functional utility that allows users to instantly generate customizable QR codes for URLs, text, or contact information with a seamless export workflow.",
-    "tech": ["Vite", "ReactJS", "Material UI", "Tailwind CSS", "HTML5", "CSS"],
+    "tech": [
+      "Vite",
+      "ReactJS",
+      "Material UI",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/qrmaker.png"
   },
-  "8": {
+  "9": {
     "slug": "video-player",
     "title": "Video Player",
     "category": "tool",
     "link": "https://video-player-eight-alpha.vercel.app/",
     "description": "A custom-built media player featuring a sleek UI, playback controls, and visible timestamp down to milliseconds (request of a cousin).",
-    "tech": ["Next.js", "Tailwind CSS", "Typescript", "ReactJS", "HTML5", "CSS"],
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Typescript",
+      "ReactJS",
+      "HTML5",
+      "CSS"
+    ],
     "img": "/projects/videoplayer.png"
   }
 }
